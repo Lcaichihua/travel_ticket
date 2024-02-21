@@ -15,7 +15,9 @@ public class FlyEntity implements Serializable {
     private Double destinyLat;
     private Double destinyLng;
     private BigDecimal price ;
+    @Column(length = 20)
     private String destinyName;
+    @Column(length = 20)
     private String originName;
     @Enumerated(EnumType.STRING)
     private AeroLine aeroLine;
