@@ -1,4 +1,4 @@
-package com.caichihua.ticketera_travel.domain;
+package com.caichihua.ticketera_travel.domain.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

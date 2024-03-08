@@ -1,4 +1,4 @@
-package com.caichihua.ticketera_travel.domain;
+package com.caichihua.ticketera_travel.domain.entities;
 
 import com.caichihua.ticketera_travel.util.AeroLine;
 import jakarta.persistence.*;
