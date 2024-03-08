@@ -24,13 +24,13 @@ public class HotelEntity implements Serializable {
     private Integer rating;
     private BigDecimal price;
 
-    @ToString.Exclude
+    /*@ToString.Exclude
     @EqualsAndHashCode.Exclude
     @OneToMany(
             cascade = CascadeType.ALL,
             fetch = FetchType.EAGER,
             orphanRemoval = true,
             mappedBy = "hotel"
-    )
+    )*/
 
 }
