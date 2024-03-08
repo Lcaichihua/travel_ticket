@@ -26,6 +26,6 @@ public class TicketeraTravelApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		var fly = flyRepository.findById(15L).get();
 		var hotel =hotelRepository.findById(7L).get();
-		log.info(String.valueOf(fly));
+		log.info(fly.toString());
 	}
 }
